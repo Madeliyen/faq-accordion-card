@@ -1,0 +1,152 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* body */
+body {
+  background-image: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+  color: hsl(237, 12%, 33%);
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+h1 {
+  font-weight: 700;
+  padding-top: 50px;
+}
+
+/* body container */
+.container-fluid {
+  background-color: white;
+  width: 70%;
+  border-radius: 25px;
+  margin: 150px auto;
+}
+
+.img-holder {
+  padding: 0;
+  position: relative;
+}
+
+.img-crop {
+  position: relative;
+  overflow: hidden;
+  width: 85%;
+  height: 100%;
+  padding: 0;
+}
+
+.faq-holder {
+  padding: 50px 50px 50px 0;
+}
+
+.faq-content {
+  margin: 0;
+  padding: 30px 0 15px 0;
+  width: 90%;
+}
+
+/* images */
+
+@media screen and (min-width: 1200px) {
+  .bg-pattern-img {
+    content: url(images/bg-pattern-desktop.svg);
+    position: absolute;
+    top: -50%;
+    right: 28%;
+  }
+
+  .woman-desktop-img {
+    content: url(images/illustration-woman-online-desktop.svg);
+    position: absolute;
+    top: 20%;
+    left: -11%;
+  }
+
+  .alias-box-img {
+    content: url(images/illustration-box-desktop.svg);
+    position: absolute;
+    left: -93px;
+    top: 230px;
+    z-index: 1;
+  }
+}
+
+@media screen and (max-width: 1200px) and (min-width: 375px){
+  h1 {
+    padding-top: 20px;
+  }
+
+  .img-crop {
+    overflow: visible;
+    text-align: center;
+    width: 100%;
+  }
+
+  .bg-pattern-img {
+    content: url(images/bg-pattern-mobile.svg);
+  }
+
+  .woman-desktop-img {
+    content: url(images/illustration-woman-online-mobile.svg);
+    position: absolute;
+    margin: auto;
+    top: -120px;
+    left: -25px;
+    right: 0;
+    bottom: 0;
+  }
+
+  .alias-box-img {
+    display: none;
+  }
+
+  .faq-holder {
+    padding: 0;
+    text-align: center;
+  }
+
+  .faq-content {
+    text-align: left;
+    margin: auto;
+    padding-bottom: 50px;
+    width: 90%;
+  }
+}
+
+/* question and answer */
+.qna {
+  border-bottom: 1px solid hsl(240, 5%, 91%);
+  padding: 15px 0;
+  margin: 0;
+}
+
+.question {
+  padding: 0;
+  margin: 0;
+}
+
+.question:hover {
+  font-weight: 700;
+}
+
+.answer {
+  padding: 15px 0 0 0;
+  margin: 0;
+  color: hsl(240, 6%, 50%);
+  display: none;
+  /* visibility: hidden; */
+}
+
+.active {
+  font-weight: 700;
+}
+/* .answer {
+  width: 30%;
+} */
