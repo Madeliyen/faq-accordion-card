@@ -27,10 +27,10 @@ Users should be able to:
 
 ### Screenshot
 
-Desktop view:
+- Desktop view: <br>
 ![](./screenshots/Desktop-Screenshot.png)
 
-Mobile view:
+- Mobile view: <br>
 ![](./screenshots/Mobile-Screenshot.png)
 
 ### Links
