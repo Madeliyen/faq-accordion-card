@@ -76,6 +76,18 @@ Users should be able to:
 }
 ```
 
+- Set webpage height to be same as the screen height.
+```css
+body {
+  background-image: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+  color: hsl(237, 12%, 33%);
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  height: 100vh;
+}
+```
+
 ### Continued development
 
 Areas and techniques to focus on and refine in future projects.
